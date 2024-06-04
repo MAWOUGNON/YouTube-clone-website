@@ -239,7 +239,7 @@
   background-color: white;
   position: fixed;
   top: 52px;
-  left: 100px;
+  left: 95px;
   right: 0;
   z-index: 100;
   
@@ -259,7 +259,7 @@
   transition: background-color 0.15s;
   border-radius: 8px;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 15px;
   flex-shrink: 0;
 }
 
