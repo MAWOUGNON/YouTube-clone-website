@@ -1,0 +1,64 @@
+.sidebar {
+  position: fixed;
+  bottom: 0;
+  left: 3px;
+  top: 62px;
+  width: 65px;
+  background-color: white;
+  z-index: 300;
+}
+
+.sidebar-link {
+  position: relative;
+  display: flex;
+  flex-direction: column ;
+  align-items: center ;
+  justify-content: center;
+  height: 72px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sidebar-link .tooltip1 {
+  right: -35px;
+  bottom: 0;
+  z-index: 200;
+  
+}
+
+.sidebar-link:hover .tooltip1 { 
+  opacity: 1;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.sidebar-link:active {
+  background-color: rgb(224, 224, 224);
+  border-radius: 0;
+}
+
+.home-icon {
+  height: 24px;
+}
+
+.short-logo {
+  height: 24px;
+  object-fit: contain;
+}
+
+.subscriptions-icon {
+  height: 24px;
+}
+
+.you-icon {
+  height: 24px;
+}
+
+.icons-text {
+  margin-top: 2px;
+  font-size: 10px;
+}
