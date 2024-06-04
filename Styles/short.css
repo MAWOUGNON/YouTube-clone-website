@@ -1,0 +1,124 @@
+
+.short-bar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.short-logo2 {
+  height: 25px;
+  cursor: pointer;
+}
+
+.short {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 12px;
+}
+
+.close-button-box {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+}
+
+.close-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: white;
+  border: none;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.close-button:active {
+  background-color: rgb(214, 214, 214);
+}
+
+.short-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  margin-bottom: 25px;
+}
+
+
+@media (min-width:1101px) {
+  .short-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width:1100px) {
+  .short-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width:900px) {
+  .short-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width:550px) {
+  .short-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.sthumbnail {
+  width: 100%;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.line {
+  height: 1px;
+  background-color: rgb(199, 199, 199);
+  flex: 1;
+}
+
+.more-case {
+  display: flex;
+  flex: 1;
+  border-style: solid;
+  border-color: rgb(199, 199, 199);
+  border-width: 1px;
+  border-radius: 10px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  word-spacing: 3px;
+  border-radius: 100px;
+  min-width: 400px;
+  cursor: pointer;
+}
+
+.more-case:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.more-case:active {
+  background-color: rgb(214, 214, 214);
+}
